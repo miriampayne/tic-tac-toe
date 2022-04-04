@@ -1,10 +1,8 @@
 ## Tic Tac Toe
 
-### Contents
+### CONTENTS
 
-- Purpose
-
-- Product
+- Product & Purpose
 1. Final Design
 2. Initial Idea Concept
 3. Wireframe
@@ -40,23 +38,23 @@
 4. Tools
 5. Acknowledgements
 
-
-### Purpose
-
-### Product
+### PRODUCT
+#### Purpose
 #### Final Design
+Take a look here: <deployed link>
 ##### Initial Idea Concept
 ###### Wireframe
+https://balsamiq.cloud/scqmgj2/ptuxb51
 ###### Flowchart
 #### UX/UI Design
 ##### Target Audience
 ##### User Stories
 
-### Features
+### FEATURES
 #### Existing
 #### Future
 
-### Testing
+### TESTING
 Tested initial file connections using console.log for JS and background color for css prior to initial commit.
 #### Validator Testing
 #### Lighthouse
@@ -65,11 +63,11 @@ Tested initial file connections using console.log for JS and background color fo
 #### Fixed Bugs
 #### Unfixed Bugs
 
-### Functionality
+### FUNCTIONALITY
 
-### Deployment
+### DEPLOYMENT
 
-### Credits & References
+### CREDITS & REFERENCES
 #### Content
 #### Media
 #### Code
