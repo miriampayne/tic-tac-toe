@@ -1,12 +1,12 @@
 body {
     font-family: 'Raleway', sans-serif;
     background-color: #222630;
+    color: whitesmoke;
 }
 
-.header {
+.heading {
     font-family: 'Rubik Glitch', cursive;
-    color: white;
-    font-size: 64px;
+    font-size: 62px;
     font-weight: lighter;
 }
 
