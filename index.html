@@ -15,8 +15,10 @@
       <title>Tic-Tac-Toe</title>
    </head>
    <body>
-      <section>
-         <h1 class="heading"><img class="logo" src="/assets/images/logo.png" alt="logo"> NOUGHTS & CROSSES</h1>
+      <div class="container">
+         <header>
+            <h1 class="heading"><img class="logo" src="/assets/images/logo.png" alt="logo"> NOUGHTS & CROSSES</h1>
+         </header>
          <div class="board" id="board">
             <div class="cell" data-value="0"></div>
             <div class="cell" data-value="1"></div>
@@ -28,20 +30,20 @@
             <div class="cell" data-value="7"></div>
             <div class="cell" data-value="8"></div>
          </div>
-         <div class="score-panel">
-            <div class="timer"></div>
-            <div class="moves"></div>
+         <section class="score-panel">
+            <span class="timer">0</span> seconds
+            <span class="moves">0</span> moves
             <div class="score-count">
-               <p class="scores">Player 1 <span id="player-one">0</span></p>
-               <p class="scores">Player 2 <span id="player-two">0</span></p>
+               <p class="scores">Player 1 Score <span id="player-one">0</span></p>
+               <p class="scores">Player 2 Score <span id="player-two">0</span></p>
             </div>
-         </div>
+         </section>
          <div class="game-over" id="game-over">
             <h2 class="game-status"></h2>
             <div id="game-msg"></div>
             <button id="restart-btn">Restart Game</button>
          </div>
-      </section>
+      </div>
       <script src="assets/js/script.js"></script>
    </body>
 </html>
