@@ -1,7 +1,8 @@
 body {
     font-family: 'Raleway', sans-serif;
-    background-color: #222630;
+    background-color: #000000;
     color: whitesmoke;
+    text-align: center;
 }
 
 .heading {
