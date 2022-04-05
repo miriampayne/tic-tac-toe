@@ -1,47 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Play a classic/retro game of tic-tac-toe (also known as Noughts and Crosses) for entertainment">
-    <meta name="keywords" content="tic-tac-toe, noughts, crosses, games, gaming, entertainment">
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Raleway%7CRighteous" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <title>Tic-Tac-Toe</title>
-</head>
-<body>
-    <div>
-        <h1 class="heading"><img class="logo" src="/assets/images/logo.png" alt="logo"> NOUGHTS & CROSSES</h1>
-    </div>
-    <div class="board" id="board">
-        <div class="cell" data-value="0"></div>
-        <div class="cell" data-value="1"></div>
-        <div class="cell" data-value="2"></div>
-        <div class="cell" data-value="3"></div>
-        <div class="cell" data-value="4"></div>
-        <div class="cell" data-value="5"></div>
-        <div class="cell" data-value="6"></div>
-        <div class="cell" data-value="7"></div>
-        <div class="cell" data-value="8"></div>
-    </div>
-    <div class="score-panel">
-        <div class="timer"></div>
-        <div class="moves"></div>
-        <div class="score-count">
-            <p class="scores">Player 1 <span id="player-one">0</span></p>
-            <p class="scores">Player 2 <span id="player-two">0</span></p>
-        </div>
-    </div>
-    <div class="game-over" id="game-over">
-        <h2 class="game-status"></h2>
-        <div id="game-msg"></div>
-        <button id="restart-btn">Restart Game</button>
-    </div>
-    <script src="assets/js/script.js"></script>
-</body>
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="description" content="Play a classic/retro game of tic-tac-toe (also known as Noughts and Crosses) for entertainment">
+      <meta name="keywords" content="tic-tac-toe, noughts, crosses, games, gaming, entertainment">
+      <!-- Google Fonts -->
+      <link href="https://fonts.googleapis.com/css?family=Raleway%7CRighteous" rel="stylesheet">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="assets/css/style.css">
+      <title>Tic-Tac-Toe</title>
+   </head>
+   <body>
+      <section>
+         <h1 class="heading"><img class="logo" src="/assets/images/logo.png" alt="logo"> NOUGHTS & CROSSES</h1>
+         <div class="board" id="board">
+            <div class="cell" data-value="0"></div>
+            <div class="cell" data-value="1"></div>
+            <div class="cell" data-value="2"></div>
+            <div class="cell" data-value="3"></div>
+            <div class="cell" data-value="4"></div>
+            <div class="cell" data-value="5"></div>
+            <div class="cell" data-value="6"></div>
+            <div class="cell" data-value="7"></div>
+            <div class="cell" data-value="8"></div>
+         </div>
+         <div class="score-panel">
+            <div class="timer"></div>
+            <div class="moves"></div>
+            <div class="score-count">
+               <p class="scores">Player 1 <span id="player-one">0</span></p>
+               <p class="scores">Player 2 <span id="player-two">0</span></p>
+            </div>
+         </div>
+         <div class="game-over" id="game-over">
+            <h2 class="game-status"></h2>
+            <div id="game-msg"></div>
+            <button id="restart-btn">Restart Game</button>
+         </div>
+      </section>
+      <script src="assets/js/script.js"></script>
+   </body>
 </html>
