@@ -2,23 +2,17 @@
 
 **CONTENTS**
 
-Game Link
-
-Instructions
-
-Design
-
-Features
-
-Testing
-
-Deployment
-
-Credits &amp; References
+1. Game Link
+2. Instructions
+3. Design
+4. Features
+5. Testing
+6. Deployment
+7. Credits &amp; References
 
 **GAME-LINK**
 
-Link to live gaming webpage can be found here: \&lt;Deployed link\&gt;
+Link to live gaming webpage can be found here: [https://miriampayne.github.io/tic-tac-toe/](https://miriampayne.github.io/tic-tac-toe/)
 
 **INSTRUCTIONS**
 
@@ -33,10 +27,6 @@ Keep playing! Start a new game by hitting refresh, or, if you&#39;ve finished, b
 **UX/UI DESIGN**
 
 Final Design
-
-![Responsive Design View of Project Heal](/assets/docs/Screen%20Shot%202022-04-10%20at%2011.57.32.png)
-
-Images taken from: [http://ami.responsivedesign.is/](http://ami.responsivedesign.is/)
 
 Initial Idea Concept
 
@@ -105,9 +95,11 @@ Validator Testing
 
 Lighthouse
 
-Simulators
+[https://googlechrome.github.io/lighthouse/viewer/](https://googlechrome.github.io/lighthouse/viewer/)
 
 Accessibility
+
+[https://developers.google.com/web/fundamentals/accessibility?utm\_source=lighthouse&amp;utm\_medium=devtools](https://developers.google.com/web/fundamentals/accessibility?utm_source=lighthouse&amp;utm_medium=devtools)
 
 Fixed Bugs
 
