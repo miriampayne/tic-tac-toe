@@ -34,6 +34,10 @@ Keep playing! Start a new game by hitting refresh, or, if you&#39;ve finished, b
 
 Final Design
 
+![Responsive Design View of Project Heal](/assets/docs/Screen%20Shot%202022-04-10%20at%2011.57.32.png)
+
+Images taken from: [http://ami.responsivedesign.is/](http://ami.responsivedesign.is/)
+
 Initial Idea Concept
 
 Wireframe
