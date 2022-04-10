@@ -1,7 +1,7 @@
 /*
 Game status element
 */
-const statusDisplay = document.querySelector('.game--status');
+const statusDisplay = document.querySelector('.game-status');
 /*
 Variables for tracking game state throughout
 Pause game in case of end scenario
@@ -18,7 +18,7 @@ Declared as functions due to dynamic factors ie. current player,
 so actual message gets created with current data each time needed.
 */
 const winningMessage = () => `Player ${currentPlayer} has won!`;
-const drawMessage = () => `Game ended in a draw!`;
+const drawMessage = () => `Tie-Breaker!`;
 const currentPlayerTurn = () => `It's ${currentPlayer}'s turn`;
 /*
 Set inital message to let players know whose turn it is
@@ -121,4 +121,4 @@ function handleRestartGame() {
 Add event listeners to game cells and restart button
 */
 document.querySelectorAll('.cell').forEach(cell => cell.addEventListener('click', handleCellClick));
-document.querySelector('.game--restart').addEventListener('click', handleRestartGame);
+document.querySelector('.game-restart').addEventListener('click', handleRestartGame);
