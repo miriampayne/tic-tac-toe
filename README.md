@@ -28,7 +28,7 @@ Keep playing! Start a new game by hitting refresh, or, if you&#39;ve finished, b
 
 Final Design
 
-![Responsive Design View of Project Heal](/assets/docs/finaldesign.png)
+![Responsive Design View of Project Heal](/assets/docs/final-design.png)
 
 Images taken from: [http://ami.responsivedesign.is/](http://ami.responsivedesign.is/)
 
