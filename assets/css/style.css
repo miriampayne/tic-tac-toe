@@ -1,3 +1,6 @@
+/* font styling for cell events */
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
 body {
     font-family: 'Raleway', sans-serif;
     background-color: #000000;
@@ -26,6 +29,7 @@ body {
     line-height: 100px;
     font-size: 60px;
     color: #5E47FF;
+    font-family: 'Fredoka One', cursive;
 }
 
 .cell:nth-child(-n + 3) {

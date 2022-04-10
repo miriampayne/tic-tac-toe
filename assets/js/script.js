@@ -104,7 +104,7 @@ function handleCellClick(clickedCellEvent) {
         return;
     }
     /* 
-    If everything if in order we will proceed with the game flow
+    If everything in order, proceed with game flow
     */
     handleCellPlayed(clickedCell, clickedCellIndex);
     handleResultValidation();
