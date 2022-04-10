@@ -40,7 +40,28 @@ function handleResultValidation() {
 
 }
 function handleCellClick() {
-
+    /*
+Save clicked element in constant var
+*/    
+    const clickedCell = clickedCellEvent.target;
+/*
+Get 'data-cell-index' attribute from clicked cell to identify location on grid. 
+getAttribute returns string => parse to integer
+*/
+    const i = parseInt(
+      clickedCell.getAttribute('cell-i')
+    );
+/* 
+Check if cell already played or if game paused and if either true, ignore click.
+*/
+    if (gameState[i] !== "" || !gameActive) {
+        return;
+    }
+/* 
+If everything if in order we will proceed with the game flow
+*/    
+    handleCellPlayed(clickedCell, i);
+    handleResultValidation();
 }
 function handleRestartGame() {
 
