@@ -24,30 +24,18 @@
             <h1 class="heading"><img class="logo" src="/assets/images/logo.png" alt="logo"> NOUGHTS & CROSSES</h1>
          </header>
          <div class="board" id="board">
-            <div cell-i="0" class="cell"></div>
-            <div cell-i="1" class="cell"></div>
-            <div cell-i="2" class="cell"></div>
-            <div cell-i="3" class="cell"></div>
-            <div cell-i="4" class="cell"></div>
-            <div cell-i="5" class="cell"></div>
-            <div cell-i="6" class="cell"></div>
-            <div cell-i="7" class="cell"></div>
-            <div cell-i="8" class="cell"></div>
+            <div data-cell-index="0" class="cell"></div>
+            <div data-cell-index="1" class="cell"></div>
+            <div data-cell-index="2" class="cell"></div>
+            <div data-cell-index="3" class="cell"></div>
+            <div data-cell-index="4" class="cell"></div>
+            <div data-cell-index="5" class="cell"></div>
+            <div data-cell-index="6" class="cell"></div>
+            <div data-cell-index="7" class="cell"></div>
+            <div data-cell-index="8" class="cell"></div>
          </div>
-         <section class="score-panel">
-            <span class="timer">0</span> seconds
-            <span class="moves">0</span> moves
-            <div class="score-count">
-               <p class="scores">Player <span id="player">0</span></p>
-               <p class="tie-breaker">Draw <span id="tie">0</span></p>
-               <p class="scores">Computer <span id="computer">0</span></p>
-            </div>
-         </section>
-         <div class="game-over" id="game-over">
-            <h2 class="game-status"></h2>
-            <div id="game-msg"></div>
-            <button id="restart-btn">Restart Game</button>
-         </div>
+         <h2 class="game--status"></h2>
+         <button class="game--restart">Restart Game</button>
       </div>
       <script src="assets/js/script.js"></script>
    </body>
