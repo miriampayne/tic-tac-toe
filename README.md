@@ -28,6 +28,10 @@ Keep playing! Start a new game by hitting refresh, or, if you&#39;ve finished, b
 
 Final Design
 
+![Responsive Design View of Project Heal](/assets/docs/finaldesign.png)
+
+Images taken from: [http://ami.responsivedesign.is/](http://ami.responsivedesign.is/)
+
 Initial Idea Concept
 
 Wireframe
@@ -95,7 +99,9 @@ Validator Testing
 
 Lighthouse
 
-[https://googlechrome.github.io/lighthouse/viewer/](https://googlechrome.github.io/lighthouse/viewer/)
+![Lighthouse Results](/assets/docs/lighthouse.png)
+
+Images taken from: [https://googlechrome.github.io/lighthouse/viewer/](https://googlechrome.github.io/lighthouse/viewer/)
 
 Accessibility
 
